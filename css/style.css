@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+/* navbar */
+.navbar {
+  background-color: #f8f9fa !important;
+}
+
+.navbar-brand {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.navbar-brand span {
+  color: #ffc107;
+}
+
+.nav-link {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.nav-link:hover {
+  color: #ffc107;
+}
+
+.dropdown-item:hover {
+  color: #ffc107;
+  background-color: #f8f9fa;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .nav-item {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-item {
+    text-align: center;
+  }
+}
+
+/* banner */
+
+.banner {
+  background-color: #555;
+  background-image: url("../img/home-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
+  background-blend-mode: multiply;
+}
+
+.banner h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.banner p {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.banner button {
+  background-color: #ffc107;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.banner button a {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.banner button:hover {
+  background-color: #f8f9fa;
+}
+
+.banner button:hover a {
+  color: #ffc107;
+}
+
+@media (max-width: 767px) {
+  .banner {
+    padding: 120px 0 100px;
+  }
+
+  .banner h1 {
+    font-size: 27px;
+  }
+
+  .banner p {
+    font-size: 18px;
+  }
+}
+
+/* about */
+
+.about {
+  background-color: #f1fbff;
+  padding: 100px 0;
+}
+
+.about h2 {
+  font-size: 33px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.about p {
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.about img {
+  width: 90%;
+}
+
+.about button {
+  background-color: #ffc107;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+}
+
+.about button a {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .about img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about h2 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .about p {
+    line-height: 1.8;
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 767px) {
+  .about img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .about h2 {
+    font-size: 25px;
+    line-height: 1.4;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}
+
+/* services */
+
+.services {
+  background-color: #f1fbff;
+  padding: 70px 0;
+}
+
+.services h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.services p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.service-card {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.service-card h3 {
+  margin-top: 8px;
+}
+
+.services button {
+  background-color: #ffc107;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.services button a {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .service-card {
+    margin: 15px 0;
+  }
+
+  .services i {
+    font-size: 24px;
+  }
+
+  .services h2 {
+    font-weight: bolder;
+  }
+
+  .service-card h3 {
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 767px) {
+  .services p {
+    font-size: 16px;
+  }
+
+  .service-card {
+    margin: 10px 0;
+  }
+}
+
+/* projects */
+
+.projects {
+  padding: 70px 0;
+  background-color: #f1fbff;
+}
+
+.projects h2 {
+  font-weight: bolder;
+}
+
+.project-card h3 {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.project-card p {
+  line-height: 1.5;
+}
+
+.projects button {
+  background-color: #ffc107;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.projects button a {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.projects img {
+  padding: 10px;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .projects h2 {
+    font-size: 32px;
+  }
+
+  .project-card {
+    margin: 15px 0;
+  }
+
+  .project-card h3 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects p {
+    font-size: 16px;
+  }
+
+  .project-card {
+    margin: 12px 0;
+  }
+}
+
+/* team */
+
+.team {
+  background-color: #f1fbff;
+  padding: 70px 0;
+}
+
+.team h2 {
+  font-weight: bolder;
+}
+
+.team img {
+  border-radius: 100%;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.team-card p {
+  line-height: 1.6;
+}
+
+.team-card i {
+  padding: 0 7px;
+  font-size: 18px;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .team-card {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .team p {
+    font-size: 16px;
+  }
+
+  .team-card {
+    margin: 12px 0;
+    padding: 12px;
+  }
+
+  .team img {
+    width: 40%;
+  }
+}
+
+/* contact */
+
+.contact {
+  padding: 70px 0;
+  background-color: #f1fbff;
+}
+
+.contact button {
+  background-color: #ffc107;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.contact button a {
+  color: #000;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .contact p {
+    font-size: 16px;
+  }
+}
+
+footer {
+  padding: 20px 0 10px 0;
+}
+
+footer p span {
+  color: #ffc107;
+  font-weight: bolder;
+}
